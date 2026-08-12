@@ -9,4 +9,13 @@ public class Factorial {
 
         return fact;
     }
+
+    public static void main(String[] args) {
+        Factorial f = new Factorial();
+
+        int n = 5;
+        long result = f.calculate(n);
+
+        System.out.println("Factorial of " + n + " = " + result);
+    }
 }
